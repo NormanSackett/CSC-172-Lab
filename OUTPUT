@@ -4,12 +4,46 @@ email: nsackett@u.rochester.edu
 partner: Julien Diamond
 
 OUTPUT:
+printArray with Object array as parameter
 {1, 2, 3, 4, 5}
 {1.1, 2.2, 3.3, 4.4}
 {H, E, L, L, O}
 {once, upon, a, time}
-5
-4.4
+
+overloaded printArray method
+{1, 2, 3, 4, 5}
+{1.1, 2.2, 3.3, 4.4}
+{H, E, L, L, O}
+{once, upon, a, time}
+
+printArray implementation with generics
+{1, 2, 3, 4, 5}
+{1.1, 2.2, 3.3, 4.4}
+{H, E, L, L, O}
+{once, upon, a, time}
+
+non-type safe getMax implementation
+compilation warnings:
+Note: PrintArray.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+output:
+max Integer is: 5
+max Double is: 4.4
+max Character is: O
+max String is: upon
+
+
+findMax functional interface output
 O
-upon
+
+total output:
+{1, 2, 3, 4, 5}
+{1.1, 2.2, 3.3, 4.4}
+{H, E, L, L, O}
+{once, upon, a, time}
+max Integer is: 5
+max Double is: 4.4
+max Character is: O
+max String is: upon
 O
